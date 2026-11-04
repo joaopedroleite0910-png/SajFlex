@@ -28,6 +28,13 @@ npm run build
 
 Os arquivos ficam em `/out` — prontos para hospedar em qualquer CDN/hosting estático.
 
+### Publicação no Netlify
+
+O arquivo `netlify.toml` define o comando `npm run build` e a pasta de publicação
+`out`, correspondente à exportação estática configurada em `next.config.mjs`.
+O Netlify deve publicar essa pasta para servir a página inicial e as páginas
+de catálogo e contato.
+
 ## Personalizar
 
 ### Nome da empresa e contato
